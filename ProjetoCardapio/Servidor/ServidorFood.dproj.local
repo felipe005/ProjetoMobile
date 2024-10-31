@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2021/11/16 11:08:17.000.563,=C:\Users\INTEL\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/11/16 12:50:48.000.217,=C:\Users\INTEL\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/12/19 15:32:32.000.701,=C:\Users\INTEL\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/01/29 20:38:32.000.980,=C:\Users\INTEL\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/01/29 20:38:50.000.598,D:\99Coders\Posts\399 - Criando o servidor em Horse de um cardápio digital\Fontes\UnitPrincipal.pas=C:\Users\INTEL\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/01/29 20:38:50.000.598,D:\99Coders\Posts\399 - Criando o servidor em Horse de um cardápio digital\Fontes\UnitPrincipal.fmx=C:\Users\INTEL\Documents\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
+    <Transaction>2024/01/29 20:39:05.000.470,D:\99Coders\Posts\399 - Criando o servidor em Horse de um cardápio digital\Fontes\ServidorFood.dproj=C:\Users\INTEL\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2024/01/29 20:58:55.000.521,=D:\99Coders\Posts\399 - Criando o servidor em Horse de um cardápio digital\Fontes\Unit1.pas</Transaction>
+    <Transaction>2024/01/29 20:59:44.000.138,D:\99Coders\Posts\399 - Criando o servidor em Horse de um cardápio digital\Fontes\Controllers\Controllers.Cardapio.pas=D:\99Coders\Posts\399 - Criando o servidor em Horse de um cardápio digital\Fontes\Unit1.pas</Transaction>
+    <Transaction>2024/01/29 21:06:43.000.253,=D:\99Coders\Posts\399 - Criando o servidor em Horse de um cardápio digital\Fontes\Unit1.pas</Transaction>
+    <Transaction>2024/01/29 21:06:57.000.327,D:\99Coders\Posts\399 - Criando o servidor em Horse de um cardápio digital\Fontes\Controllers\Controllers.Pedido.pas=D:\99Coders\Posts\399 - Criando o servidor em Horse de um cardápio digital\Fontes\Unit1.pas</Transaction>
+    <Transaction>2024/01/29 21:17:48.000.428,=D:\99Coders\Posts\399 - Criando o servidor em Horse de um cardápio digital\Fontes\Unit1.pas</Transaction>
+    <Transaction>2024/01/29 21:18:00.000.061,D:\99Coders\Posts\399 - Criando o servidor em Horse de um cardápio digital\Fontes\Controllers\Controllers.Config.pas=D:\99Coders\Posts\399 - Criando o servidor em Horse de um cardápio digital\Fontes\Unit1.pas</Transaction>
+    <Transaction>2024/01/29 21:22:26.000.945,=D:\99Coders\Posts\399 - Criando o servidor em Horse de um cardápio digital\Fontes\Unit1.pas</Transaction>
+    <Transaction>2024/01/29 21:23:02.000.804,D:\99Coders\Posts\399 - Criando o servidor em Horse de um cardápio digital\Fontes\DataModules\DataModule.Global.pas=D:\99Coders\Posts\399 - Criando o servidor em Horse de um cardápio digital\Fontes\Unit1.pas</Transaction>
+    <Transaction>2024/01/29 21:23:02.000.804,D:\99Coders\Posts\399 - Criando o servidor em Horse de um cardápio digital\Fontes\DataModules\DataModule.Global.dfm=D:\99Coders\Posts\399 - Criando o servidor em Horse de um cardápio digital\Fontes\Unit1.dfm</Transaction>
+    <Transaction>2024/02/25 19:18:12.000.247,=D:\99Coders\Lancamento 26 - Food\Fontes\Servidor\Unit1.pas</Transaction>
+    <Transaction>2024/02/25 19:18:34.000.141,D:\99Coders\Lancamento 26 - Food\Fontes\Servidor\Controllers\Controllers.Usuario.pas=D:\99Coders\Lancamento 26 - Food\Fontes\Servidor\Unit1.pas</Transaction>
+    <Transaction>2024/02/25 20:16:10.000.051,=D:\99Coders\Lancamento 26 - Food\Fontes\Servidor\Units\uFunctions.pas</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<PMacMini iOSSimulator="iPhone5"/>
+		<NoProfile Android64="" Android="ZF524KP8CQ"/>
+	</ActiveMobileDevice>
+</BorlandProject>

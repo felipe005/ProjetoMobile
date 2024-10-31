@@ -1,0 +1,378 @@
+object FrmPedidoDetalhe: TFrmPedidoDetalhe
+  Left = 0
+  Top = 0
+  Caption = 'Detalhes do Pedido'
+  ClientHeight = 561
+  ClientWidth = 400
+  Fill.Kind = Solid
+  Position = MainFormCenter
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  OnClose = FormClose
+  OnDestroy = FormDestroy
+  OnShow = FormShow
+  DesignerMasterStyle = 0
+  object rectToolBar: TRectangle
+    Align = Top
+    Fill.Kind = None
+    Sides = [Bottom]
+    Size.Width = 400.000000000000000000
+    Size.Height = 50.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Color = xFFE2E2E2
+    object Label3: TLabel
+      Align = Contents
+      StyledSettings = [Family, Style]
+      Margins.Top = 5.000000000000000000
+      Size.Width = 400.000000000000000000
+      Size.Height = 45.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 16.000000000000000000
+      TextSettings.FontColor = xFFE84F3D
+      TextSettings.HorzAlign = Center
+      Text = 'Detalhes do Pedido'
+      TabOrder = 1
+    end
+    object imgFechar: TImage
+      MultiResBitmap.Height = 64
+      MultiResBitmap.Width = 64
+      MultiResBitmap = <
+        item
+          Width = 64
+          Height = 64
+          PNG = {
+            89504E470D0A1A0A0000000D4948445200000040000000400806000000AA6971
+            DE000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+            040949444154785EEDDACF6F1B451407F037B31B3B8D5BAA004A6D9A227AA152
+            556EA83F48D2200529E1103B41E280CAA1A27F404FD0960B3F2E55A9D473B981
+            54680FA0D84E24824490123B09E15024E8017A814A519D22D1AA4D1CC7F6EE3C
+            76C27315A9DDCD6AD7BB3BB4FBB978F62907CF57E3B73B9385582C168BC5624F
+            2D469F4A5BCEBE768003BBC09978A3D63430A9276650E867F74ECDFE4E7FE299
+            F20154727DA30DE05F25017651A9E51E6778B4275FBE49D79E70FA5452253BF0
+            FE7A95E71F3379A9DB34D9051A7BA6E40AB83932927C26B17A19183F49A5C76A
+            023CD85728EDA64B4F945B0195F1633D3B93D599ED262F75348495813F4A05B0
+            923BFE0A6BF025EB4BF551C991D0D9F734F44C990064B3AB03CE83CE5FA29233
+            0177750D3EA12BCF9408609B66F72843FC059CBDEEF70E2045DA046FBC7D30F1
+            7CBDFB7337BFF71681B8C8B1399E9E5CBA43255F220B60796CE8395D34BEB5BE
+            C12095B62510AE1A89E6A917BFF9A94625DF2209A0323E788889461140DF4F25
+            475500EC02F83453287D4CA5B6093D803BA3FD2306E2354DE3AEEEDFB5E6C6DA
+            0EADF3DDF464A940A5B60AB509AE648F9F5EABAD4FB99D3C08B19CE09D83414D
+            5E0A6505A8D0ECEC041E802ACDCE4EA001A8D4ECEC0416806ACDCE4E204D50C5
+            6667A7AD2B40E56667A76D01A8DEECECB42500B98D05C32CBADDC955AB20BABA
+            E06CA658BA48A5C8F80E401E58EA4C5BB486DDFF559CD5015613204E640AF393
+            548A94EF26A831EDBCF5E16AF2721B9B04D6A7CAE425DF011800433474840865
+            4C8823E9C2DC6F545242A87B01D434A4A1327C07A003FE4043478C413FAFE1CF
+            9B0D5321BE0330517C28CFE7E8D299759790E77EF2FC8F2A91F31D406F71E10F
+            793EB7794EE7823CF793E77FF21C904A918AFC41A87E9FBFB77F7676834AA18B
+            FE51D8140B9C196FFDEF1F85B7929BA1EA3A5E4AA55CFEC4ACCD90893CB777AA
+            749D2AA1092400E9F658DF9B68C0D5A7723B2CBD909FFF4ED3B401EB51E94F2A
+            39DAD1D1B9B3CA61A2921B08ED30440A6C05B4A8DE1C030F4052B9398612408B
+            97E6C89996ED29CEFD4295B60B350049B5E6185813B4F3B039BA7C720CBA3986
+            BE025A54698EA1AF8096DEFCCC3F0F1AA96140F10595B6C519BC93DC65CCAC8C
+            1ED94325DF225B015B5572FD1FAC57D979D7CDD1FAF960421FCD4CCCDEA08A67
+            4A04205977886C9DE115D76F89585B70AEE1B127E63DC17471AE9814D86F4DEC
+            16959C7178D630E123BAF24C9900A4F464F957D48DC302609E4A8EB881C334F4
+            4CA900A4CCC4E2DF6BF5D410007E49255BA6063A0D3D532E00E9E5E9E97ABA50
+            3E898067E43F51A8FC08AEF11F69E8999201B4640AE5CF525D6C5C3E0D5269AB
+            7B269AE768EC99D20148B23976E81DAFA280FC661056F71702BF966F8A6F9E47
+            C662B1582C168B7902F02F90D0DF8B46706A320000000049454E44AE426082}
+          FileName = 'D:\99Coders\CursoFood\Admin\Fontes\Images\voltar.png'
+        end>
+      Align = Left
+      Cursor = crHandPoint
+      Margins.Left = 5.000000000000000000
+      Position.X = 5.000000000000000000
+      Size.Width = 32.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      OnClick = imgFecharClick
+    end
+  end
+  object Rectangle1: TRectangle
+    Align = Top
+    Fill.Kind = None
+    Position.Y = 50.000000000000000000
+    Sides = [Bottom]
+    Size.Width = 400.000000000000000000
+    Size.Height = 90.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Color = xFFE2E2E2
+    object lblPedido: TLabel
+      StyledSettings = [Family, FontColor]
+      Margins.Top = 30.000000000000000000
+      Position.X = 13.000000000000000000
+      Position.Y = 12.000000000000000000
+      Size.Width = 193.000000000000000000
+      Size.Height = 20.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 14.000000000000000000
+      TextSettings.Font.StyleExt = {00060000000000000004000000}
+      Text = 'Pedido #651651'
+      TabOrder = 8
+    end
+    object lblData: TLabel
+      Anchors = [akTop, akRight]
+      StyledSettings = [Family, Style]
+      Margins.Top = 30.000000000000000000
+      Position.X = 241.000000000000000000
+      Position.Y = 12.000000000000000000
+      Size.Width = 148.000000000000000000
+      Size.Height = 20.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 14.000000000000000000
+      TextSettings.FontColor = xFF8D8D8D
+      TextSettings.HorzAlign = Trailing
+      Text = '15/01/2024 - 21:40h'
+      TabOrder = 5
+    end
+    object lblCliente: TLabel
+      StyledSettings = [Family, Style]
+      Margins.Top = 30.000000000000000000
+      Position.X = 13.000000000000000000
+      Position.Y = 33.000000000000000000
+      Size.Width = 279.000000000000000000
+      Size.Height = 20.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 14.000000000000000000
+      TextSettings.FontColor = xFFB0B0B0
+      Text = 'Cliente: Heber Stein Mazutti'
+      TabOrder = 7
+    end
+    object lblEndereco: TLabel
+      StyledSettings = [Family, Style]
+      Margins.Top = 30.000000000000000000
+      Position.X = 13.000000000000000000
+      Position.Y = 54.000000000000000000
+      Size.Width = 390.000000000000000000
+      Size.Height = 20.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 14.000000000000000000
+      TextSettings.FontColor = xFFB0B0B0
+      Text = 'Entrega: Av. Paulista, 1500 - Ap 50'
+      TabOrder = 6
+    end
+    object lblStatus: TLabel
+      Anchors = [akTop, akRight]
+      StyledSettings = [Family]
+      Margins.Top = 30.000000000000000000
+      Position.X = 287.000000000000000000
+      Position.Y = 34.000000000000000000
+      Size.Width = 99.000000000000000000
+      Size.Height = 20.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 14.000000000000000000
+      TextSettings.Font.StyleExt = {00060000000000000004000000}
+      TextSettings.FontColor = xFFE84F3D
+      TextSettings.HorzAlign = Trailing
+      Text = 'Aberto'
+      TabOrder = 4
+    end
+  end
+  object lbProdutos: TListBox
+    Align = Client
+    Size.Width = 400.000000000000000000
+    Size.Height = 244.000000000000000000
+    Size.PlatformDefault = False
+    StyleLookup = 'transparentlistboxstyle'
+    TabOrder = 2
+    DisableFocusEffect = True
+    DefaultItemStyles.ItemStyle = ''
+    DefaultItemStyles.GroupHeaderStyle = ''
+    DefaultItemStyles.GroupFooterStyle = ''
+    Viewport.Width = 400.000000000000000000
+    Viewport.Height = 244.000000000000000000
+  end
+  object lytRodape: TLayout
+    Align = Bottom
+    Position.Y = 511.000000000000000000
+    Size.Width = 400.000000000000000000
+    Size.Height = 50.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 3
+    object rectCmbStatus: TRectangle
+      Align = Scale
+      Cursor = crHandPoint
+      Fill.Kind = None
+      Size.Width = 202.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = xFFE84F3D
+      Stroke.Thickness = 2.000000000000000000
+      OnClick = rectCmbStatusClick
+      object lblCmbStatus: TLabel
+        Align = Client
+        StyledSettings = [Family, Style]
+        Margins.Left = 10.000000000000000000
+        Size.Width = 167.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 16.000000000000000000
+        TextSettings.FontColor = xFFE84F3D
+        Text = 'Status Pedido'
+        TabOrder = 0
+      end
+      object Image1: TImage
+        MultiResBitmap.Height = 15
+        MultiResBitmap.Width = 18
+        MultiResBitmap = <
+          item
+            Width = 18
+            Height = 15
+            PNG = {
+              89504E470D0A1A0A0000000D49484452000000120000000F0806000000E9869F
+              12000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+              010449444154384FA592C10EC140108667B6451CDDF4E83944C259FA0E3C8237
+              E00D78025EA1C419891E3C85DE383A0ACD8ECE66DB74AB4BCA9734FD67D3FD33
+              9D7FF0E2F7462860097F80528E90C5D5EFED40405F9D562596517B1B76046B12
+              72A60E7F80DC78C06F65E405E11E48AE585722B9E305A788A5326208DD19DD1F
+              375D7E85BF258CB33FC98CBCE01061B336D7E557B0519BA7DD309911D32067C1
+              C3D3A51D1EF0FA68CCD5306A05871BB838D1A595645DA65A66A8F88B7C5C0749
+              FBF6E6A892CA637494F2691D483CC75A1A941AF13A20D1FBE0737117293562EA
+              E898EB900C381F7711AB110FDE5807078CB82B731D76CFFCE8D28AB5A3147261
+              5C16B709C00BC36C6574D44A965D0000000049454E44AE426082}
+            FileName = 'D:\99Coders\CursoFood\Admin\Fontes\Images\combo.png'
+          end>
+        Align = Right
+        HitTest = False
+        Margins.Top = 3.000000000000000000
+        Margins.Right = 10.000000000000000000
+        Position.X = 177.000000000000000000
+        Position.Y = 3.000000000000000000
+        Size.Width = 15.000000000000000000
+        Size.Height = 47.000000000000000000
+        Size.PlatformDefault = False
+      end
+    end
+    object rectBtnFinalizar: TRectangle
+      Align = Scale
+      Cursor = crHandPoint
+      Fill.Color = xFFE84F3D
+      Position.X = 202.457138061523400000
+      Size.Width = 197.543228149414100000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+      object btnFinalizar: TSpeedButton
+        Align = Client
+        Cursor = crHandPoint
+        StyledSettings = [Family]
+        Size.Width = 197.543228149414100000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'Finalizar Pedido'
+        TextSettings.Font.Size = 16.000000000000000000
+        TextSettings.FontColor = claWhite
+        OnClick = btnFinalizarClick
+      end
+    end
+  end
+  object rectValores: TRectangle
+    Align = Bottom
+    Fill.Kind = None
+    Position.Y = 424.000000000000000000
+    Sides = [Top]
+    Size.Width = 400.000000000000000000
+    Size.Height = 87.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Color = xFFE2E2E2
+    object Label6: TLabel
+      StyledSettings = [Family, FontColor]
+      Margins.Top = 30.000000000000000000
+      Position.X = 7.000000000000000000
+      Position.Y = 57.000000000000000000
+      Size.Width = 151.000000000000000000
+      Size.Height = 20.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 14.000000000000000000
+      TextSettings.Font.StyleExt = {00060000000000000004000000}
+      Text = 'Total'
+      TabOrder = 12
+    end
+    object Label7: TLabel
+      StyledSettings = [Family, FontColor]
+      Margins.Top = 30.000000000000000000
+      Position.X = 7.000000000000000000
+      Position.Y = 32.000000000000000000
+      Size.Width = 151.000000000000000000
+      Size.Height = 20.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 14.000000000000000000
+      Text = 'Taxa Entrega'
+      TabOrder = 11
+    end
+    object Label8: TLabel
+      StyledSettings = [Family, FontColor]
+      Margins.Top = 30.000000000000000000
+      Position.X = 7.000000000000000000
+      Position.Y = 8.000000000000000000
+      Size.Width = 151.000000000000000000
+      Size.Height = 20.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 14.000000000000000000
+      Text = 'Subtotal'
+      TabOrder = 8
+    end
+    object lblEntrega: TLabel
+      Anchors = [akTop, akRight]
+      StyledSettings = [Family, FontColor]
+      Margins.Top = 30.000000000000000000
+      Position.X = 238.000000000000000000
+      Position.Y = 32.000000000000000000
+      Size.Width = 151.000000000000000000
+      Size.Height = 20.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 14.000000000000000000
+      TextSettings.HorzAlign = Trailing
+      Text = 'R$ 3,00'
+      TabOrder = 10
+    end
+    object lblSubtotal: TLabel
+      Anchors = [akTop, akRight]
+      StyledSettings = [Family, FontColor]
+      Margins.Top = 30.000000000000000000
+      Position.X = 238.000000000000000000
+      Position.Y = 8.000000000000000000
+      Size.Width = 151.000000000000000000
+      Size.Height = 20.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 14.000000000000000000
+      TextSettings.HorzAlign = Trailing
+      Text = 'R$ 42,00'
+      TabOrder = 7
+    end
+    object lblTotal: TLabel
+      Anchors = [akTop, akRight]
+      StyledSettings = [Family, FontColor]
+      Margins.Top = 30.000000000000000000
+      Position.X = 238.000000000000000000
+      Position.Y = 57.000000000000000000
+      Size.Width = 151.000000000000000000
+      Size.Height = 20.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 14.000000000000000000
+      TextSettings.Font.StyleExt = {00060000000000000004000000}
+      TextSettings.HorzAlign = Trailing
+      Text = 'R$ 45,00'
+      TabOrder = 9
+    end
+  end
+  object Label13: TLabel
+    Align = Top
+    StyledSettings = [Family, FontColor]
+    Margins.Left = 15.000000000000000000
+    Margins.Top = 15.000000000000000000
+    Margins.Right = 15.000000000000000000
+    Margins.Bottom = 5.000000000000000000
+    Position.X = 15.000000000000000000
+    Position.Y = 155.000000000000000000
+    Size.Width = 370.000000000000000000
+    Size.Height = 20.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 14.000000000000000000
+    TextSettings.Font.StyleExt = {00060000000000000004000000}
+    Text = 'Itens do Pedido'
+    TabOrder = 6
+  end
+end
